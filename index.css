@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100vh;
+    justify-content: center;
+}
+
+.text {
+    margin: 0;
+    border: none;
+    position: relative;
+    font-size: 12rem;
+    background-color: red;
+	background-image: url(img/venice.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 900;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    /* filter: grayscale(50%);  */
+    /* filter: opacity(25%); */
+    filter: invert(75%);
+    filter: contrast(200%);
+    
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: papayawhip; */
+    z-index: -1;
+}
+
+.tokyo {
+	background-image: url(img/tokyo.jpg);    
+}
+
+.tromso {
+	background-image: url(img/tromso.jpg);
+}
