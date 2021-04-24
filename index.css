@@ -21,7 +21,6 @@ body {
     position: relative;
     font-size: 12rem;
     background-color: red;
-	background-image: url(img/venice.jpg);
     background-position: center;
     background-size: cover;
     font-weight: 900;
@@ -43,6 +42,10 @@ body {
     height: 100%;
     /* background: papayawhip; */
     z-index: -1;
+}
+
+.venice {
+	background-image: url(img/venice.jpg);
 }
 
 .tokyo {
